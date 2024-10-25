@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    overflow: hidden; 
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('bright-abstract-background-with-monsoon-rain-elements_92152-73097.avif');
+    background-size: cover; 
+    background-position: center; 
+    z-index: -1; 
+}
+
+.container {
+    text-align: center;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.weather-info {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+}
